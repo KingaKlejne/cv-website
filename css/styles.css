@@ -172,3 +172,20 @@ body {
 .modal-title {
   color: #3D3B3A;
 }
+
+@media (max-width: 768px) {
+  body {
+    zoom: 0.8; /* Ustawienie skalowania na 50% */
+   
+  }
+  
+  .profile-photo {
+    zoom: 0.1
+  }
+  .img-skill {
+    zoom: 0.6
+  }
+
+  .profile-text {
+    zoom: 0.85
+  }

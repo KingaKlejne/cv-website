@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #E2D7C7;
+}
+
+/* Navbar */
+.custom-navbar {
+  background-color: #E2D7C7;
+}
+
+.navbar-nav.d-flex.flex-row .nav-item {
+  margin-right: 15px;
+}
+
+/* Containers */
+.top-container {
+  background-color: #E2D7C7;
+  padding-top: 56px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gilda Display";
+  color: #3D3B3A;
+  margin-top: -55px;
+}
+
+.middle-container {
+  background-color: #F8F4EF;
+  padding-top: 56px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #3D3B3A;
+}
+
+.skills-container {
+  text-align: center;
+  padding: 20px 0 50px;
+}
+
+#skills {
+  background-color: #E2D7C7;
+}
+
+.bottom-container {
+  background-color: #E2D7C7;
+  padding: 10px 0 0;
+}
+
+/* Texts Options */
+.heading {
+  font-size: 65px;
+  letter-spacing: 15px;
+  margin: 0;
+
+}
+
+.sub-heading {
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.profile-text {
+  text-align: left;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 2.0;
+  margin-top: 20px;
+}
+
+.contact {
+  font-size: 30px;
+  margin: 20px auto;
+}
+
+.middle-container-header {
+  font-size: 50px;
+  color: black;
+  margin-bottom: 10px;
+  font-family: "Gilda Display";
+  font-weight: bold;
+}
+
+/* Center the photo and text horizontally */
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Timeline at the bottom */
+.timeline {
+  margin: -15px;
+  text-align: center;
+}
+
+ /* Line options */
+.line {
+  width: 200px;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto 100px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.contact-line {
+  width: 200px;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto 50px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+/* Skills section */
+.skills-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills-triggers {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto 50px;
+}
+
+.skill {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill p {
+  margin-top: 20px;
+}
+
+.img-skill {
+  width: 150px;
+  height: 150px;
+}
+
+.info-trigger {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Modals */
+.modal-content {
+  background-color: #F8F4EF;
+  color: #3D3B3A;
+}
+
+.modal-header,
+.modal-footer {
+  background-color: #E2D7C7;
+}
+
+.modal-title {
+  color: #3D3B3A;
+}

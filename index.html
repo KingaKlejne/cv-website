@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/7000b4edb6.js" crossorigin="anonymous"></script>
+
+    <title>Kinga Klejne</title>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-nav nav-link" href="#">Home</a>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Top Section -->
+    <section class="top-container" id="title-text">
+        <!-- Title -->
+        <h1 class="heading">KINGA KLEJNE</h1>
+        <h2 class="sub-heading">Data Analyst</h2>
+    </section>
+
+    <!-- Middle Section -->
+    <section class="middle-container" id="about">
+        <div class="container">
+            <div class="row">
+                <!-- Left Side - Photo -->
+                <div class="col-md-4">
+                    <div class="profile-photo">
+                        <img src="images/IMG_1498.jpg" alt="Photo" class="rounded-circle img-fluid">
+                    </div>
+                </div>
+
+                <!-- Right Side - Text -->
+                <div class="col-md-8">
+                    <div class="profile-text">
+                        <p>
+                            Hi, I’m Kinga.<br>
+                            I am a seasoned <b>Data Analyst</b> with over 5 years of experience, specializing in the
+                            last 2
+                            years in reporting, process improvement, and project management. Proficient in <b>Python,
+                                PL/SQL, Alteryx, Tableau</b>, and more, I excel in producing and automating reports,
+                            addressing
+                            process inefficiencies, and collaborating with IT teams. In my prior 3.5 years as a Risk
+                            Analyst, I demonstrated efficiency in executing processes, handling client requests, and
+                            contributing to projects. My passion lies in data analysis, where I enjoy exploring
+                            possibilities, creating solutions, and automating processes to contribute effectively to
+                            business objectives.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Section - Timeline -->
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="timeline">
+                        <!-- Timeline Image -->
+                        <img src="images/timeline.png" alt="Timeline" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="middle-container" id="skills">
+        <h2 class="middle-container-header">SKILLS</h2>
+        <div class="line"></div>
+        <div class="container">
+            <div class="row">
+                <div class="skills-icons">
+                    <div class="col-md-4 skill">
+                        <img src="images/search-analysis.png" alt="Data Analysis" class="img-skill">
+                        <p>Data Analysis</p>
+                    </div>
+                    <div class="col-md-4 skill">
+                        <img src="images/settings.png" alt="ETL Tools" class="img-skill">
+                        <p>ETL Tools</p>
+                    </div>
+                    <div class="col-md-4 skill">
+                        <img src="images/data-visualization.png" alt="Data Visualization" class="img-skill">
+                        <p>Data Visualization</p>
+                    </div>
+                    <div class="col-md-4 skill">
+                        <img src="images/creative-teaching.png" alt="Education and Documentation" class="img-skill">
+                        <p>Education and<br> Documentation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="skills-triggers">
+                    <!-- Skill Modals Triggers -->
+                    <div class="col-md-4 skill">
+                        <button class="info-trigger" type="button" data-bs-toggle="modal"
+                            data-bs-target="#dataAnalysisModal">+</button>
+                    </div>
+                    <div class="col-md-4 skill">
+                        <button class="info-trigger" type="button" data-bs-toggle="modal"
+                            data-bs-target="#etlToolsModal">+</button>
+                    </div>
+                    <div class="col-md-4 skill">
+                        <button class="info-trigger" type="button" data-bs-toggle="modal"
+                            data-bs-target="#dataVisualizationModal">+</button>
+                    </div>
+                    <div class="col-md-4 skill">
+                        <button class="info-trigger" type="button" data-bs-toggle="modal"
+                            data-bs-target="#educationAndDocumentationModal">+</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="middle-container" id="contact">
+        <h2 class="middle-container-header">CONTACT</h2>
+        <div class="contact-line"></div>
+        <div class="container">
+            <div class="row">
+                <div class="contact-icons">
+                    <div class="col-md-12 contact">
+                        <i class="fas fa-envelope"></i> kingaklejne@gmail.com
+                    </div>
+                    <div class="col-md-12 contact">
+                        <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/kinga-klejne/"
+                            target="_blank">/kinga-klejne</a>
+                    </div>
+                    <div class="col-md-12 contact">
+                        <i class="fab fa-github"></i> <a href="https://github.com/KingaKlejne"
+                            target="_blank">/KingaKlejne</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Container -->
+    <div class="bottom-container">
+        <p class="copyright">© 2023 Kinga Klejne.</p>
+    </div>
+
+    <!-- Modals -->
+    <!-- Data Analysis Modal -->
+    <div class="modal fade" id="dataAnalysisModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Data Analysis</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Place your Data Analysis information here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ETL Tools Modal -->
+    <div class="modal fade" id="etlToolsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ETL Tools</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Place your ETL Tools information here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Visualization Modal -->
+    <div class="modal fade" id="dataVisualizationModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Data Visualization</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Place your Data Visualization information here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education and Documentation Modal -->
+    <div class="modal fade" id="educationAndDocumentationModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Education and Documentation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Place your Education and Documentation information here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

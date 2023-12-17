@@ -220,9 +220,13 @@ body {
     zoom: 0.6
   }
 
-  .profile-text {
+  .profile-text b {
    font-size: 17px;
   }
+
+  .profile-text {
+    font-size: 17px;
+   }
 
   button {
     color: black; 

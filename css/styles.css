@@ -72,10 +72,9 @@ body {
   text-align: justify;
   font-size: 20px;
   line-height: 2.0;
-  margin-top: 20px;
 }
 
-.profile-text p {
+.profile-text .highlights {
   font-size: inherit;
 }
 
@@ -179,7 +178,7 @@ body {
 .modal {
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .modal-content p {
@@ -225,4 +224,8 @@ body {
 
   .profile-text {
     zoom: 0.85
+  }
+
+  button {
+    color: black; 
   }

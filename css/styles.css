@@ -229,5 +229,5 @@ body {
   }
 
   .profile-text .highlights {
-    font-size: inherit;
+    zoom: 0.85
   }

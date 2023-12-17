@@ -75,6 +75,10 @@ body {
   margin-top: 20px;
 }
 
+.profile-text p {
+  font-size: inherit;
+}
+
 .contact {
   font-size: 30px;
   margin: 20px auto;

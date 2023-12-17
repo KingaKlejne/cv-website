@@ -88,6 +88,11 @@ body {
   font-weight: bold;
 }
 
+.highlights {
+  color: #CDA78C;
+  font-weight: bold;
+}
+
 /* Center the photo and text horizontally */
 .row {
   display: flex;
@@ -101,7 +106,7 @@ body {
   text-align: center;
 }
 
- /* Line options */
+/* Line options */
 .line {
   width: 200px;
   height: 2px;
@@ -124,18 +129,14 @@ body {
 .skills-icons {
   display: flex;
   justify-content: space-around;
+  margin: 0 auto 100px;
 }
 
-.skills-triggers {
-  display: flex;
-  justify-content: space-around;
-  margin: 0 auto 50px;
-}
 
 .skill {
   text-align: center;
   flex: 1;
-  display: flex;
+  display: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -150,13 +151,6 @@ body {
   height: 150px;
 }
 
-.info-trigger {
-  background: none;
-  border: none;
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
-}
 
 /* Modals */
 .modal-content {
@@ -173,15 +167,54 @@ body {
   color: #3D3B3A;
 }
 
+.modal-dialog {
+  text-align: left;
+  text-align: justify;
+}
+
+.modal {
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.modal-content p {
+  color: #3D3B3A;
+  font-family: "Gilda Display";
+  font-weight: bold;
+}
+
+.modal-content li {
+  color: #3D3B3A;
+  font-size: 13.5px;
+
+}
+
+
+/* Buttons */
+.skill button {
+  background: none;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.skill button:hover {
+  outline: none;
+  transform: scale(1.1);
+}
+
+/* Mobile view */
 @media (max-width: 768px) {
   body {
-    zoom: 0.8; /* Ustawienie skalowania na 50% */
-   
+    zoom: 0.8;
+    /* Ustawienie skalowania na 50% */
+
   }
-  
+
   .profile-photo {
     zoom: 0.1
   }
+
   .img-skill {
     zoom: 0.6
   }

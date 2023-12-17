@@ -67,12 +67,12 @@
                     <div class="profile-text">
                         <p>
                             Hi, I’m Kinga.<br>
-                            I am a seasoned <b>Data Analyst</b> with over 5 years of experience, specializing in the
-                            last 2
-                            years in reporting, process improvement, and project management. Proficient in <b>Python,
-                                PL/SQL, Alteryx, Tableau</b>, and more, I excel in producing and automating reports,
-                            addressing
-                            process inefficiencies, and collaborating with IT teams. In my prior 3.5 years as a Risk
+                            I am a seasoned <span class="highlights">Data Analyst</span> with over 5 years of experience, specializing in the
+                            last 2 years in reporting, process improvement, and project management. Proficient in
+                            <span class="highlights">Python,
+                                PL/SQL, Alteryx, Tableau</span>, and more, I excel in producing and automating reports,
+                            addressing process inefficiencies, and collaborating with IT teams. In my prior 3.5 years as
+                            a Risk
                             Analyst, I demonstrated efficiency in executing processes, handling client requests, and
                             contributing to projects. My passion lies in data analysis, where I enjoy exploring
                             possibilities, creating solutions, and automating processes to contribute effectively to
@@ -101,44 +101,41 @@
             <div class="row">
                 <div class="skills-icons">
                     <div class="col-md-4 skill">
-                        <img src="images/search-analysis.png" alt="Data Analysis" class="img-skill">
-                        <p>Data Analysis</p>
+                        <button class="info-trigger" type="button" data-bs-toggle="modal"
+                            data-bs-target="#dataAnalysisModal">
+                            <img src="images/search-analysis.png" alt="Data Analysis" class="img-skill">
+                            <p>Data Analysis</p>
+                        </button>
                     </div>
+
                     <div class="col-md-4 skill">
-                        <img src="images/settings.png" alt="ETL Tools" class="img-skill">
-                        <p>ETL Tools</p>
+                        <button class="info-trigger" type="button" data-bs-toggle="modal"
+                            data-bs-target="#etlToolsModal">
+                            <img src="images/settings.png" alt="ETL Tools" class="img-skill">
+                            <p>ETL Tools</p>
+                        </button>
                     </div>
+
                     <div class="col-md-4 skill">
-                        <img src="images/data-visualization.png" alt="Data Visualization" class="img-skill">
-                        <p>Data Visualization</p>
+                        <button class="info-trigger" type="button" data-bs-toggle="modal"
+                            data-bs-target="#dataVisualizationModal">
+                            <img src="images/data-visualization.png" alt="Data Visualization" class="img-skill">
+                            <p>Data Visualization</p>
+                        </button>
                     </div>
+
                     <div class="col-md-4 skill">
-                        <img src="images/creative-teaching.png" alt="Education and Documentation" class="img-skill">
-                        <p>Education and<br> Documentation</p>
+                        <button class="info-trigger" type="button" data-bs-toggle="modal"
+                            data-bs-target="#educationAndDocumentationModal">
+                            <img src="images/creative-teaching.png" alt="Education and Documentation" class="img-skill">
+                            <p>Education and<br> Documentation</p>
+                        </button>
                     </div>
+
                 </div>
             </div>
-            <div class="row">
-                <div class="skills-triggers">
-                    <!-- Skill Modals Triggers -->
-                    <div class="col-md-4 skill">
-                        <button class="info-trigger" type="button" data-bs-toggle="modal"
-                            data-bs-target="#dataAnalysisModal">+</button>
-                    </div>
-                    <div class="col-md-4 skill">
-                        <button class="info-trigger" type="button" data-bs-toggle="modal"
-                            data-bs-target="#etlToolsModal">+</button>
-                    </div>
-                    <div class="col-md-4 skill">
-                        <button class="info-trigger" type="button" data-bs-toggle="modal"
-                            data-bs-target="#dataVisualizationModal">+</button>
-                    </div>
-                    <div class="col-md-4 skill">
-                        <button class="info-trigger" type="button" data-bs-toggle="modal"
-                            data-bs-target="#educationAndDocumentationModal">+</button>
-                    </div>
-                </div>
-            </div>
+
+        </div>
     </section>
 
     <!-- Contact Section -->
@@ -172,29 +169,62 @@
     <!-- Modals -->
     <!-- Data Analysis Modal -->
     <div class="modal fade" id="dataAnalysisModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Data Analysis</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Place your Data Analysis information here.</p>
+                    <p>Key Achievements:</p>
+                    <li>Enhanced Excel-based reporting file used by Poland and India locations.</li>
+                    <li>Spearheaded UAT testing initiatives for different projects.</li>
+                    <li>Implemented approximately <b>10</b> validation components through Python/Alteryx, including
+                        <b>3</b>
+                        distinct validation processes resulting in improved efficiency.
+                    </li>
+                    <li>Developed <b>2</b> Trackers with various formatting and formulas using Python.</li>
+
+                    <li>Transformed the MU process from Excel/VBA to Alteryx/Python, significantly improving user
+                        efficiency and reducing processing time; automated emails are now sent as part of the process.
+                    </li>
+                    <hr>
+                    <p>Experience:</p>
+                    <li>Utilized <span class="highlights">Pandas</span> in <span class="highlights">Python</span> for data analysis.</li>
+                    <li>Executed folder creation and file manipulation tasks through <span class="highlights">Python</span></span>.</li>
+                    <li>Utilized Alteryx for <span class="highlights">data cleansing, validation</span> and creating <span class="highlights">Tableau Sources.</span></li>
+                    <li>Applied <span class="highlights">Regex</span> for identifying data differences, especially with varied format names.</li>
+                    <li>Leveraged <span class="highlights">Alteryx</span> for email sending automation.</li>
+                    <li>Experienced in working with <span class="highlights">UAT</span> environments, databases, and RPA BOTS, among other
+                        technologies.
+                    </li>
+
                 </div>
+
             </div>
         </div>
     </div>
 
     <!-- ETL Tools Modal -->
     <div class="modal fade" id="etlToolsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">ETL Tools</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Place your ETL Tools information here.</p>
+                    <p>Key Achievements:</p>
+                    <li>Personally created <b>12 out of 43</b> workflows used in the team.</li>
+                    <li> Participated in testing data from <b>half of the 61</b> feeds before production changes,
+                        identifying
+                        <b>over 100 errors</b> in total.
+                    </li>
+                    <hr>
+                    <p>Experience:</p>
+                    <li>Connected with databases through <span class="highlights">Alteryx, Tableau, and Python</span> using <span class="highlights">SQL</span> queries.</li>
+                    <li>Maintained databases through data uploads and updates.</li>
+                    </p>
                 </div>
             </div>
         </div>
@@ -203,14 +233,24 @@
     <!-- Data Visualization Modal -->
     <div class="modal fade" id="dataVisualizationModal" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Data Visualization</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Place your Data Visualization information here.</p>
+                    <p>Key Achievements:</p>
+                    <li> Participated in the migration from Excel/VBA to Alteryx/Tableau, resulting in <b>80%
+                    </b>reduction in
+                        process time for generating control packs reporting.
+                    </li>
+                    <li> Developed approximately <b>15</b> different Tableau dashboards from scratch.</li>
+                    <hr>
+                    <p>Experience:</p>
+                    <li> Working with <span class="highlights">Tableau API </span>using <span class="highlights">Python</span>.</li>
+                    <li> Creating complex Tableau Dashboards using <span class="highlights">blend relationships, calculations, and parameters</span>.
+                    </li>
                 </div>
             </div>
         </div>
@@ -219,14 +259,28 @@
     <!-- Education and Documentation Modal -->
     <div class="modal fade" id="educationAndDocumentationModal" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Education and Documentation</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Place your Education and Documentation information here.</p>
+
+                    <p>Key Achievements: </p>
+                    <li> Received awards for exceptional performance, highlighting a commitment to continuous
+                        improvement and the maintenance of high standards.</li>
+                    <li> Actively contributed to the onboarding process for new joiners.</li>
+                    <li> Introduced multiple updates and creating new <span class="highlights">Standard Operating Procedures (SOPs)</span> to
+                        enhance the efficiency and effectiveness.</li>
+
+                    <hr>
+                    <p>Expiercience: </p>
+                    <li> Conducted training sessions.</li>
+                    <li> Provided support to other teams, during peak times, quickly adapting to their processes, and
+                        providing valuable assistance.</li>
+
+
                 </div>
             </div>
         </div>

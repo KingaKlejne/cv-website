@@ -74,9 +74,7 @@ body {
   line-height: 2.0;
 }
 
-.profile-text .highlights {
-  font-size: inherit;
-}
+
 
 .contact {
   font-size: 30px;
@@ -228,4 +226,8 @@ body {
 
   button {
     color: black; 
+  }
+
+  .profile-text .highlights {
+    font-size: inherit;
   }
